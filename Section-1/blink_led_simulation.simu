@@ -1,0 +1,45 @@
+<circuit Speed_per="100" animate="0" type="simulide_0.4" Simu_Step_nS="1000" reactStep="50" Speed_sps="1000000" noLinAcc="5">
+
+Unique  Id: Tunnel-343: 
+Circuit Id: Tunnel-228
+<item labely="-24" valLabRot="0" Name="led_pin" labelrot="0" Show_id="false" boardRot="-1000000" valLabelx="0" vflip="1" Rotated="false" itemtype="Tunnel" objectName="Tunnel-343" id="Tunnel-228" Uid="" boardPos="-1e+06,-1e+06" rotation="0" x="-344" y="-220" circPos="0,0" mainComp="false" hflip="1" labelx="-16" valLabely="0" circRot="0"/>
+
+Unique  Id: Ground-340: 
+Circuit Id: Ground-340
+<item labely="8" valLabRot="0" labelrot="0" Show_id="false" boardRot="-1000000" valLabelx="0" vflip="1" itemtype="Ground" objectName="Ground-340" id="Ground-340" boardPos="-1e+06,-1e+06" rotation="0" x="-224" y="-184" circPos="0,0" mainComp="false" hflip="1" labelx="-16" valLabely="0" circRot="1.358077306207893e-312"/>
+
+Unique  Id: Resistor-339: 
+Circuit Id: Resistor-339
+<item labely="-20" valLabRot="0" Resistance="220" labelrot="0" Show_id="false" boardRot="-1000000" valLabelx="-16" vflip="1" itemtype="Resistor" objectName="Resistor-339" id="Resistor-339" boardPos="-1e+06,-1e+06" Unit=" Ω" rotation="0" x="-308" y="-220" circPos="0,0" Show_res="true" mainComp="false" hflip="1" labelx="-12" valLabely="6" circRot="0"/>
+
+Unique  Id: Led-338: 
+Circuit Id: Led-338
+<item labely="-24" valLabRot="0" Resistance="0.59999999999999998" labelrot="0" Show_id="false" boardRot="-1000000" valLabelx="0" vflip="1" itemtype="Led" objectName="Led-338" id="Led-338" Threshold="2.3999999999999999" boardPos="-1e+06,-1e+06" rotation="0" x="-256" Color="0" y="-220" circPos="0,0" MaxCurrent="0.029999999999999999" mainComp="false" hflip="1" Grounded="false" labelx="-16" valLabely="0" circRot="2.9299926770063283e-316"/>
+
+Unique  Id: Uno-1: 
+Circuit Id: Uno-1
+<item labely="-20" valLabRot="-90" labelrot="0" Logic_Symbol="false" Show_id="true" boardRot="-1000000" valLabelx="77" vflip="1" itemtype="Subcircuit" objectName="Uno-1" id="Uno-1" boardPos="-1e+06,-1e+06" rotation="0" x="-192" y="-276" circPos="0,0" mainComp="false" hflip="1" labelx="0" valLabely="111" circRot="2.947250982894338e-316" BoardId="">
+  <mainCompProps Mhz="16" Logic_Symbol="false" Auto_Load="false" Init_gdb="false" Program="../../../../../../../../Documents/GitHub/MOOC_Phase1/mdBook/src/resources/Windows/Section-1/blink_led_simulation/blink_led_simulation/Debug/blink_led_simulation.hex"/>
+ </item>
+
+Unique  Id: Tunnel-228: 
+Circuit Id: Tunnel-228
+<item labely="-24" valLabRot="0" Name="led_pin" labelrot="0" Show_id="false" boardRot="-1000000" valLabelx="0" vflip="1" Rotated="false" itemtype="Tunnel" objectName="Tunnel-228" id="Tunnel-228" Uid="" boardPos="-1e+06,-1e+06" rotation="0" x="-224" y="-148" circPos="0,0" mainComp="false" hflip="1" labelx="-16" valLabely="0" circRot="0"/>
+
+Unique  Id: Connector-229: 
+Circuit Id: Connector-229
+<item labely="-24" valLabRot="0" labelrot="0" Show_id="false" boardRot="-1000000" valLabelx="0" vflip="1" itemtype="Connector" objectName="Connector-229" startpinid="Tunnel-228-pin" id="Connector-229" pointList="-224,-148,-184,-148" boardPos="-1e+06,-1e+06" enodeid="enode-344" rotation="0" x="-224" endpinid="Uno-1-PB5" y="-148" circPos="0,0" mainComp="false" hflip="1" labelx="-16" valLabely="0" circRot="0"/>
+
+Unique  Id: Connector-341: 
+Circuit Id: Connector-341
+<item labely="-24" valLabRot="0" labelrot="0" Show_id="false" boardRot="-1000000" valLabelx="0" vflip="1" itemtype="Connector" objectName="Connector-341" startpinid="Led-338-rPin" id="Connector-341" pointList="-240,-220,-224,-220,-224,-200" boardPos="-1e+06,-1e+06" enodeid="enode-341" rotation="0" x="-240" endpinid="Ground-340-Gnd" y="-220" circPos="0,0" mainComp="false" hflip="1" labelx="-16" valLabely="0" circRot="0"/>
+
+Unique  Id: Connector-342: 
+Circuit Id: Connector-342
+<item labely="-24" valLabRot="0" labelrot="0" Show_id="false" boardRot="-1000000" valLabelx="0" vflip="1" itemtype="Connector" objectName="Connector-342" startpinid="Resistor-339-rPin" id="Connector-342" pointList="-292,-220,-272,-220" boardPos="-1e+06,-1e+06" enodeid="enode-342" rotation="0" x="-292" endpinid="Led-338-lPin" y="-220" circPos="0,0" mainComp="false" hflip="1" labelx="-16" valLabely="0" circRot="0"/>
+
+Unique  Id: Connector-344: 
+Circuit Id: Connector-344
+<item labely="-24" valLabRot="0" labelrot="0" Show_id="false" boardRot="-1000000" valLabelx="0" vflip="1" itemtype="Connector" objectName="Connector-344" startpinid="Tunnel-343-pin" id="Connector-344" pointList="-344,-220,-324,-220" boardPos="-1e+06,-1e+06" enodeid="enode-344" rotation="0" x="-344" endpinid="Resistor-339-lPin" y="-220" circPos="0,0" mainComp="false" hflip="1" labelx="-16" valLabely="0" circRot="0"/>
+ 
+</circuit>
